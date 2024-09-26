@@ -1,3 +1,3 @@
 # anudin
 
-project is in the orignal brach 
+project is in the Master Branch
