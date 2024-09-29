@@ -23,7 +23,8 @@ public class hashmap {
 		hs.put(6, "Ama");
 		hs.put(92, "Lisa");
 		hs.put(45, "Bella");
-		hs.put(null, "Max");
+		// store in zeroth position 
+		// hs.put(null, "Max");
 		
 		System.out.println(hs);
 		
@@ -38,6 +39,20 @@ public class hashmap {
 		System.out.println(hs.containsValue("Lisa"));
 		System.out.println(hs.containsValue(null));
 		System.out.println(hs.size());
+
+		System.out.println(hs.entrySet());
+
+		// retrive key
+		for (int i:hs.keySet()){
+			System.out.println("key id "+i);
+		}
+
+		
+		// retreive value 
+		for(String i:hs.values()){
+			System.out.println("value are "+i);
+		}
+		
 	}
 
     }
