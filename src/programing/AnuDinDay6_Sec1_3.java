@@ -7,7 +7,7 @@ import java.util.Optional;
 
 //Write a Java program that calculates the sum of all even numbers present in an ArrayList of integers.
 
-public class AnuDinDay6_Sec1_1 {
+public class AnuDinDay6_Sec1_3 {
     public static void main(String[] args) {
         List<Integer> arrInt=new ArrayList<>(Arrays.asList(1,2,5,7,9));
 
