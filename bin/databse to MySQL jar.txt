@@ -1,0 +1,6 @@
+databse to MySQL jar 
+add 
+
+javac -cp "mysql-connector-java-8.0.28.jar" src/JDBC/MySqlExample
+
+java -cp ".:mysql-connector-java-8.0.28.jar" src/JDBC/MySqlExample.java
