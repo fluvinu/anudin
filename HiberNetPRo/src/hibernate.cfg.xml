@@ -1,0 +1,12 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property> <!-- Use MySQLDialect for MySQL 5.x -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://mysql-1eafdc82-siddharthshivwanshi-800b.e.aivencloud.com:16981/anudin</property>
+        <property name="hibernate.connection.username">avnadmin</property>
+        <property name="hibernate.connection.password">AVNS_p-pByAc3oT8SAs5Uh6W</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property> <!-- Correct property name -->
+        <mapping class="com.hibernet.Student"/>
+    </session-factory>
+</hibernate-configuration>
