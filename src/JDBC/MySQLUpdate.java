@@ -9,7 +9,7 @@ public class MySQLUpdate{
         
         String url = "jdbc:mysql://mysql-1eafdc82-siddharthshivwanshi-800b.e.aivencloud.com:16981/anudin";
         String user = "avnadmin";
-        String password = "AVNS_p-pByAc3oT8SAs5Uh6W";
+        String password = "AVNS_p-A6W";
 
         String strQ="update students set first_name=?, last_name=?, date_of_birth=?, grade=? where student_id=? ;";
         String stuId="2";
