@@ -1,3 +1,5 @@
+hibernet Configration if not using maven 
+=========================================
 Steps to Add JVM Arguments in Eclipse
 Here’s how to add the JVM argument in Eclipse to apply it to your project:
 
@@ -17,7 +19,7 @@ Add the VM Argument:
 In the VM arguments section, add the following line:
 csharp
 Copy code
-=================================================
+
 --add-opens java.base/java.lang=ALL-UNNAMED
 ================================================
 Ensure it’s entered correctly without any extra spaces.
