@@ -10,7 +10,7 @@ public class MySqlInsertExample {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://mysql-1eafdc82-siddharthshivwanshi-800b.e.aivencloud.com:16981/anudin";
         String user = "avnadmin";
-        String password = "AVNS_p-pByAc3oT8SAs5Uh6W";
+        String password = "AVN6W";
 
         String firstName = "laavn";
         String lastName = "Doe";
