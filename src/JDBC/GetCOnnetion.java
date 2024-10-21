@@ -7,7 +7,7 @@ public class GetCOnnetion {
     static Connection con;
     static String url="jdbc:mysql://mysql-1eafdc82-siddharthshivwanshi-800b.e.aivencloud.com:16981/anudin";
     static String user="avnadmin";
-    static String password="AVNS_p-pByAc3oT8SAs5Uh6W";
+    static String password="A6W";
 
     static Connection getcon(){
         if(con==null){
